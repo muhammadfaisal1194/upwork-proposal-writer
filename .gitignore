@@ -23,7 +23,6 @@ pids
 *.pid.lock
 
 # Environment variables
-.env*
 !.env.example
 
 # Vercel
@@ -46,7 +45,6 @@ next-env.d.ts
 Thumbs.db
 
 # IDEs and editors
-.vscode/
 .idea/
 
 # Local development
@@ -57,3 +55,7 @@ Thumbs.db
 
 # Misc
 *.log
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
+branch_structure.json
