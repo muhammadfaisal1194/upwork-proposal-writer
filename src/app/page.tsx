@@ -12,9 +12,9 @@ const TONE_OPTIONS: { value: Tone; label: string; desc: string }[] = [
 ];
 
 const LENGTH_OPTIONS: { value: Length; label: string; desc: string }[] = [
-  { value: "short", label: "Short", desc: "~150–200 words" },
-  { value: "medium", label: "Medium", desc: "~250–350 words" },
-  { value: "long", label: "Long", desc: "~400–500 words" },
+  { value: "short", label: "Short", desc: "max 100 words" },
+  { value: "medium", label: "Medium", desc: "max 150 words" },
+  { value: "long", label: "Long", desc: "max 200 words" },
 ];
 
 export default function Home() {
