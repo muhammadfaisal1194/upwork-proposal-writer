@@ -23,7 +23,6 @@ pids
 *.pid.lock
 
 # Environment variables
-.env*
 !.env.example
 
 # Vercel
@@ -57,3 +56,7 @@ Thumbs.db
 
 # Misc
 *.log
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
+branch_structure.json
