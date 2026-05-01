@@ -1,0 +1,35 @@
+{
+  "freelancer": {
+    "name": "Muhammad Faisal Mahmood",
+    "tagline": "Full-Stack Developer & AI Integration Specialist",
+    "years_experience": 5
+  },
+  "projects": [
+    {
+      "id": "p1",
+      "title": "AI-Powered E-commerce Recommendation Engine",
+      "description": "Built a personalized product recommendation system for a Shopify store with 50k+ monthly users. Integrated OpenAI embeddings with a vector database to match user behavior with product attributes, increasing average order value by 34%.",
+      "technologies": ["Python", "FastAPI", "OpenAI", "Pinecone", "React", "Shopify API"],
+      "industry": "E-commerce",
+      "outcome": "34% increase in average order value, 22% improvement in click-through rate",
+      "highlights": [
+        "Processed 2M+ product interactions daily",
+        "Sub-100ms recommendation latency",
+        "A/B tested against rule-based system — won by 34% AOV"
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "AI-Enhanced Customer Support Chatbot",
+      "description": "Developed a customer support chatbot for a SaaS company using OpenAI's GPT-4. The chatbot handled 70% of incoming support tickets, reducing response time from 24 hours to under 5 minutes and improving customer satisfaction scores by 40%.",
+      "technologies": ["Python", "Flask", "OpenAI GPT-4", "Twilio API", "Zendesk API"],
+      "industry": "SaaS",
+      "outcome": "70% ticket automation, 40% increase in customer satisfaction, 95% accuracy in issue resolution",
+      "highlights": [
+        "Handled 10k+ support tickets monthly",
+        "Integrated with Zendesk for seamless ticket management",
+        "Achieved 95% accuracy in understanding and resolving issues"
+      ]
+    }
+  ]
+}
