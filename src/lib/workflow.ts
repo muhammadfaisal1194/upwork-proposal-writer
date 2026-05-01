@@ -87,9 +87,9 @@ async function generateProposal(state: State): Promise<Partial<State>> {
   };
 
   const lengthGuide: Record<Length, string> = {
-    short: "3 short paragraphs, 150–200 words total. Every sentence earns its place.",
-    medium: "4–5 paragraphs, 250–350 words. Enough to build credibility without losing attention.",
-    long: "5–6 paragraphs, 400–500 words. Room to go deeper on approach and relevant experience.",
+    short: "2–3 tight paragraphs, max 100 words total. Every sentence earns its place.",
+    medium: "3–4 paragraphs, max 150 words. Enough to build credibility without losing attention.",
+    long: "4–5 paragraphs, max 200 words. Room to go deeper on approach and relevant experience.",
   };
 
   const projectsContext = state.relevantProjects
